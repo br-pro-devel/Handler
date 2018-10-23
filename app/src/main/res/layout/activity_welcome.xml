@@ -1,0 +1,28 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layoutWelcome"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24pt"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="Hacktoberfest"
+        />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="11pt"
+        android:textColor="@android:color/primary_text_light"
+        android:text="First Pull"
+        />
+
+</LinearLayout>

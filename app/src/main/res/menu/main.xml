@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu"
+    android:background="@color/colorPrimary">
+    <item
+        app:showAsAction="always"
+        android:title=""
+        android:contentDescription="About"
+        android:id="@+id/btnAbout"
+        android:icon="@drawable/ic_contact_mail_silver_24dp"
+        />
+    <item
+        android:contentDescription="Info"
+        app:showAsAction="always"
+        android:title=""
+        android:id="@+id/btnInfo"
+        android:icon="@drawable/ic_perm_device_information_silver_24dp"
+        />
+    <item
+        android:contentDescription="Exit"
+        app:showAsAction="always"
+        android:title=""
+        android:id="@+id/btnExit"
+        android:icon="@drawable/ic_exit_to_app_silver_24dp"
+        />
+</menu>

@@ -1,0 +1,48 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layoutAbout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24pt"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="About"
+        />
+
+    <TextView
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="11pt"
+        android:textColor="@android:color/primary_text_light"
+        android:text="This application was created to Hacktoberfest Event No.5"
+        />
+    <TextView
+        android:layout_margin="0dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="6pt"
+        android:textColor="@android:color/primary_text_light"
+        android:text="Oct-2018"
+        />
+
+    <TextView
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="9pt"
+        android:textColor="@android:color/primary_text_light"
+        android:text="By: br.labtec@gmail.com"
+        />
+</LinearLayout>
